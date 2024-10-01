@@ -13,7 +13,7 @@ const employee = {
   },
 };
 
-console.log("Employee Name: " + employees.name);
+console.log("Employee Name: " + employee.name); //employee มี s เกินมา 1 ตัว
 console.log("Employee Age: " + employee.age);
 console.log(
   "Employee Address: " +
@@ -25,5 +25,5 @@ console.log(
     ", " +
     employee.address.country +
     " " +
-    employee.adress.postalCode
+    employee.address.postalCode //address พิมพ์ผิด
 );
